@@ -1,0 +1,36 @@
+.row {
+	display: block;
+	width: 40vw;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 2px solid black;
+	&__head {
+		h1 {
+			display: block;
+			margin: 0;
+		}
+	}
+	&__head-btn {
+		width: 12vw;
+	}
+	&__body {
+		margin-bottom: 12px;
+		padding: 10px;
+		border: 1px dashed black;
+		h2 {
+			margin: 0;
+		}
+	}
+	&__bottom {
+		padding: 10px;
+	}
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	button {
+		min-width: 80px;
+	}
+}
