@@ -1,10 +1,10 @@
 .row {
 	display: block;
 	width: 40vw;
-	margin-bottom: 20px;
 	padding: 20px;
 	border: 2px solid black;
 	&__head {
+		margin-bottom: 15px;
 		h1 {
 			display: block;
 			margin: 0;
@@ -23,14 +23,5 @@
 	}
 	&__bottom {
 		padding: 10px;
-	}
-}
-
-.flex {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	button {
-		min-width: 80px;
 	}
 }

@@ -1,0 +1,23 @@
+ul {
+	margin: 0;
+	padding: 0;
+	li {
+		list-style-type: none;
+	}
+}
+.row-inside {
+	margin-bottom: 15px;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		width: 300px;
+	}
+}
+.label {
+	.done {
+		text-decoration: line-through;
+	}
+}
